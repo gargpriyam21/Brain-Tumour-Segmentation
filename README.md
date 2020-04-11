@@ -10,14 +10,10 @@ The implementation is based on keras and tested on Tensorflow backend.
 
 The proposed method is trained and validated on the BRATS 2015 dataset. ], which consists of 54 low-grade and 220 high grade glioma patients volumes that are already made skull stripped and is registered by intra patient. No further preprocessing is done in it. In this dataset each patient has four MRI scan sequences that consists of namely FLAIR, T1c, T2 and T1. The dataset is already skull – strippedand registered into the T1c scan and is interposed into 1x1x1 mm3 with the sequence of 240x240x155. Few images of datset are :
 
-![](imgs/Flair.png)
-Flair
-![](imgs/T1.png)
-T1
-![](imgs/T1c.png)
-T1c
-![](imgs/T2.png)
-T2
+![Flair](imgs/Flair.png)
+![T1](imgs/T1.png)
+![T1c](imgs/T1c.png)
+![T2](imgs/T2.png)
 
 You can request for dataset from [link](https://www.smir.ch/BraTS/Start2015),
 P.S. don't ask me for the datset.
@@ -26,11 +22,9 @@ P.S. don't ask me for the datset.
 Here are some resulting images of sample taken as imput:
 
 ![](imgs/Picture1.png)
-
 ![](imgs/Picture2.png)
 
 ![](imgs/Picture3.png)
-
 ![](imgs/Picture4.png)
 
 The final image obtained after completing the procedure:
