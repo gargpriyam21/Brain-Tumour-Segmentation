@@ -8,7 +8,7 @@ The implementation is based on keras and tested on Tensorflow backend.
 
 ### Dataset
 
-The proposed method is trained and validated on the BRATS 2015 dataset. ], which consists of 54 low-grade and 220 high grade glioma patients volumes that are already made skull stripped and is registered by intra patient. No further preprocessing is done in it. In this dataset each patient has four MRI scan sequences that consists of namely FLAIR, T1c, T2 and T1. The dataset is already skull – strippedand registered into the T1c scan and is interposed into 1x1x1 mm3 with the sequence of 240x240x155. Few images of datset are :
+The proposed method is trained and validated on the BRATS 2015 dataset, which consists of 54 low-grade and 220 high grade glioma patients volumes that are already made skull stripped and is registered by intra patient. No further preprocessing is done in it. In this dataset each patient has four MRI scan sequences that consists of namely FLAIR, T1c, T2 and T1. The dataset is already skull – strippedand registered into the T1c scan and is interposed into 1x1x1 mm3 with the sequence of 240x240x155. Few images of datset are :
 
 ![Flair](imgs/Flair.png)
 ![T1](imgs/T1.png)
