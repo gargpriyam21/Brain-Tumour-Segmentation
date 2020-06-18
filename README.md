@@ -15,8 +15,7 @@ The proposed method is trained and validated on the BRATS 2015 dataset, which co
 ![T1c](imgs/T1c.png)
 ![T2](imgs/T2.png)
 
-You can request for dataset from [link](https://www.smir.ch/BraTS/Start2015),
-P.S. don't ask me for the datset.
+You can request for dataset from [link](https://www.smir.ch/BraTS/Start2015)
 
 ### Result
 Here are some resulting images of sample taken as imput:
